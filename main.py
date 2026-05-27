@@ -23,3 +23,46 @@ while True:
        q.pos.y=0
        box(color=color.red, size=vec(0.05,0.05,0.05), pos=vec(0.,-0.6,0))
        box(color=color.red, size=vec(0.05,0.05,0.05), pos=vec(0,0.6,0))
+    if '2' in k:
+     curve(pos=[vec(0,-0.6,0), vec(-0.1, 0, 0)], color=color.white)
+     curve(pos=[vec(0,-0.6,0), vec(0.14, 0, 0)], color=color.white)
+     curve(pos=[vec(0,-0.6,0), vec(-0.3, 0, 0)], color=color.white)
+     curve(pos=[vec(0,-0.6,0), vec(0.5, 0, 0)], color=color.white)
+     curve(pos=[vec(0,0.6,0), vec(-0.1, 0, 0)], color=color.white)
+     curve(pos=[vec(0,0.6,0), vec(0.14, 0, 0)], color=color.white)
+     curve(pos=[vec(0,0.6,0), vec(-0.3, 0, 0)], color=color.white)
+     curve(pos=[vec(0,0.6,0), vec(0.5, 0, 0)], color=color.white)
+    if '3' in k:
+       box(color=color.orange, size=vec(0.05,0.3,0.05), pos=vec(-0.3,0.4,0), axis=vec(1,1,0))
+       box(color=color.orange, size=vec(0.05,0.3,0.05), pos=vec(0.1,0.4,0), axis=vec(1,1,0))
+       box(color=color.orange, size=vec(0.05,0.3,0.05), pos=vec(-0.3,-0.4,0), axis=vec(1,1,0))
+       box(color=color.orange, size=vec(0.05,0.3,0.05), pos=vec(0.1,-0.4,0), axis=vec(1,1,0))
+       box(color=color.green, size=vec(0.03,0.2,0.03), pos=vec(0,0.4,0), axis=vec(1,1,0))
+       box(color=color.green, size=vec(0.03,0.2,0.03), pos=vec(0.4,0.4,0), axis=vec(1,1,0))
+       box(color=color.green, size=vec(0.03,0.2,0.03), pos=vec(0,0.4,0), axis=vec(1,1,0))
+       box(color=color.green, size=vec(0.03,0.2,0.03), pos=vec(-0.1,-0.5,0), axis=vec(1,1,0))
+       box(color=color.green, size=vec(0.03,0.2,0.03), pos=vec(0.4,-0.5,0), axis=vec(1,1,0))
+       m.visible = False
+       n.visible = False
+       p.visible = False
+       q.visible = False
+       curve(pos=[vec(0,-0.6,0), vec(-0.3, 0.4, 0)], color=color.white)
+       curve(pos=[vec(0,-0.6,0), vec(0.1, 0.4, 0)], color=color.white)
+       curve(pos=[vec(0,-0.6,0), vec(-0.3, -0.4, 0)], color=color.white)
+       curve(pos=[vec(0,-0.6,0), vec(0.1, -0.4, 0)], color=color.white)
+       curve(pos=[vec(0,0.6,0), vec(0.4, 0.4, 0)], color=color.white)
+       curve(pos=[vec(0,0.6,0), vec(0, 0.4, 0)], color=color.white)
+       curve(pos=[vec(0,0.6,0), vec(-0.1, -0.5, 0)], color=color.white)
+       curve(pos=[vec(0,0.6,0), vec(0.4, -0.4, 0)], color=color.white)
+       curve(pos=[vec(0,-0.6,0), vec(-0.1, 0, 0)], color=color.white)
+       curve(pos=[vec(0,-0.6,0), vec(0.14, 0, 0)], color=color.white).visible=False
+       curve(pos=[vec(0,-0.6,0), vec(-0.3, 0, 0)], color=color.white).visible=False
+       curve(pos=[vec(0,-0.6,0), vec(0.5, 0, 0)], color=color.white).visible=False
+       curve(pos=[vec(0,0.6,0), vec(-0.1, 0, 0)], color=color.white).visible=False
+       curve(pos=[vec(0,0.6,0), vec(0.14, 0, 0)], color=color.white).visible=False
+       curve(pos=[vec(0,0.6,0), vec(-0.3, 0, 0)], color=color.white).visible=False
+       curve(pos=[vec(0,0.6,0), vec(0.5, 0, 0)], color=color.white).visible=False
+       
+           
+     
+       
